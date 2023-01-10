@@ -1,0 +1,85 @@
+.firstdiv{
+    width: 40%;
+    height: 500px;
+    background: linear-gradient(#e66465, #9198e5);
+    border: white 1px solid;
+    border-radius: 14px;
+    left: 30%;
+    position: absolute; 
+}
+#firsth1{
+    
+    color: white;
+    font-size: 3em;
+    position: relative;
+    left: 20px;
+}
+p{
+    color: white;
+    font-size: 0.7em;
+    position: relative;
+    left: 25px;
+    font-stretch: normal;
+    font-weight: lighter;
+    
+}    
+h5{
+    position: relative;
+    left: 20px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: .4rem;   
+}
+.fa-solid, .fa-solid{
+    font-size: 1.3em;
+    position: relative;
+    left: 20px;
+}
+.username{
+    position: relative;
+    left: 34px;
+    border-radius: 5px;
+    border: white;
+    font-size: 1em;
+    
+}
+.password{
+    margin-top: 9px;
+    position: relative;
+    left: 25px;
+    border-radius: 5px;
+    border: white;
+    font-size: 1em;
+    font-stretch: extra-expanded;
+}
+::placeholder {
+    
+    font-size: 11px;
+    letter-spacing: .2em;
+    font-weight: lighter;
+    
+}
+#loginbutton{
+    margin-top: 9px;
+    left: 195px;
+    position: relative;
+    border: white;
+    border-radius: 3px;
+    font-size: 0.9em;
+    color: gray;
+    cursor: pointer;
+}
+
+#loginbutton:hover {
+color: white;
+    background-color: #e66465;
+}
+.username:hover, .password:hover {
+    color: white;
+    background-color: #e4a3a3;
+}
+
+/* Here, Appy active hover property */
+#loginbutton:active {
+    background-color: black;
+}
